@@ -10,11 +10,11 @@ function App() {
     <div className="App">
       <h2>Developer Salman :)</h2>
 
-      <h2>Question 1: Person Information</h2>
+      <h3>Question 1: Create a component named 'Person' that takes two props - 'name' and 'age'. The component should display the person's name and age in a paragraph element</h3>
       <Person name="Salman" age={20} />
       <Person name="Virat" age={35} />
 
-      <h2>Question 2: Button Component Example</h2>
+      <h3>Question 2: Create a component named 'Button' that takes two props -> 'text' and 'onClick'. The component shuld display a button element with the given text and call the onClick function when clicked.</h3>
       <Button text="Click me!" onClick={() => {
         alert('Button Clicked :)')
       }} />
